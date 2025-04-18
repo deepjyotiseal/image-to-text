@@ -1,0 +1,36 @@
+{
+  "name": "image-to-text",
+  "version": "1.0.0",
+  "description": "Image to text conversion website using Tesseract.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ocr",
+    "tesseract",
+    "image-to-text"
+  ],
+  "author": "your-name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/image-to-text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/image-to-text/issues"
+  },
+  "homepage": "https://github.com/your-username/image-to-text#readme",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dompurify": "^3.2.5",
+    "jspdf": "^3.0.1",
+    "parcel": "^2.14.4",
+    "tesseract.js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "sass": "^1.86.3"
+  }
+}
